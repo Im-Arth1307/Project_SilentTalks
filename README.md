@@ -28,13 +28,11 @@ This is a dynamic sign language detector. By using TensorFlow, MediaPipe and Ope
 Project_SilentTalks/
 ├── Elites Final/                     # Contains initial files for website
 ├── MP_data/                          # Contains local training data used for initial model training
-├── action.h5                         # Trained Keras model for gesture classification in h5 format
-├── model.pkl                         # Contains the same keras model in pkl format
+├── action.h5                         # Trained Keras model for gesture classification 
 ├── Action_Detection_Utils.py         # Utility functions: drawing landmarks, extracting keypoints, etc.
 ├── Action Detection Refined.ipynb    # Model training notebook using collected data
 ├── README.md                         # Project overview and instructions
 ├── Runner.py                         # Script for running the project
-├── Runner2.0.py                      # Alternate script for running the project
 ├── Demo.gif                          # GIF of the project in action
 └── requirements.txt                  # Required Python libraries
 
@@ -57,10 +55,6 @@ pip install -r requirements.txt
 3. Run the project
 ```
 python Runner.py
-```
-or
-```
-python Runner2.0.py
 ```
 
 4. Press 'Q' on your keyboard to close the sign language detection window
