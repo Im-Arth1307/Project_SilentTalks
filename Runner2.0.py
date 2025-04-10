@@ -21,6 +21,8 @@ threshold = 0.5
 
 cap = cv2.VideoCapture(0)
 
+sequence = []
+
 # Set mediapipe model 
 with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
     while cap.isOpened():
